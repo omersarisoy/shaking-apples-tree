@@ -1,0 +1,20 @@
+.shake-button {
+    position: absolute;
+    bottom: 60px;
+    left: -50px;
+    background-color: #ff0040;
+    color: #ffffff;
+    padding: 20px 30px;
+    font-size: 20px;
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+    cursor: pointer;
+    &:hover {
+      background-color: #ff0060;
+      transition: all ease 1s;
+    }
+    &:disabled {
+      background: grey;
+      cursor: default;
+    }
+  }
+  

@@ -1,0 +1,19 @@
+@use "./apple.scss";
+@use "./basket.scss";
+@use "./shake-button.scss";
+@use "./tree.scss";
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("../assets/köy1.jpeg") no-repeat fixed center / cover;
+  margin: 0 auto;
+  padding: 0;
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
