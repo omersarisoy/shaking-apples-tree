@@ -1,6 +1,6 @@
-#About This Project
+# About This Project
 
-###Shaking a Tree with React!
+### Shaking a Tree with React!
 
 You can see a live version of this repo [here](https://shaking-apples-tree.netlify.app)
 
@@ -12,7 +12,7 @@ There is a tree with big, juicy red apples on it. We want to collect those apple
 them. Because the tree is very high. We have to shake the tree to drop apples. After that, we can
 put the apples in our apple basket.
 
-##Built With
+## Built With
 
 `NextJS`
 `Redux Toolkit`
