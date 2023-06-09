@@ -1,4 +1,4 @@
-import Apples from "./Apples";
+import Apples from "./Apple";
 import { useSelector } from "react-redux";
 import { selectAllApples } from "../store/features/treeSlice";
 import ShakeButton from "./ShakeButton";
@@ -16,19 +16,19 @@ const Tree = () => {
     <>
       <div className="tree-container">
         <TreeImage className={` ${isShake && "tree-shaking"}`} />
-        {apples?.map((item) => (
-          <Apples
-          key={item.id}
-          style={item}
-          className={` ${
-            isShake && item.isDropped === false ? "apple-shaking" : ""
-          }`}
-          />
+          {apples?.map((item) => (
+            <Apples
+              key={item.id}
+              style={item}
+              className={` ${isShake && item.isDropped === false ? "apple-shaking" : ""}`}
+            />
           ))}
           <ShakeButton disabled={dropControl.length === 12} />
       </div>
       <Basket />
     </>
   );
-};
-export default Tree;
+}
+
+export default Tree
+

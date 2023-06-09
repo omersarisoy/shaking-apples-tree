@@ -1,7 +1,10 @@
 import { BasketImage } from "@/assets/icon";
 
-export default function Basket() {
+const Basket = () => {
   return (
       <BasketImage className="basket-wrapper"/>
   );
 }
+
+export default Basket
+

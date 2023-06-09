@@ -1,7 +1,6 @@
-import React from "react";
 import {  AppleImage } from "@/assets/icon";
 
-export default function Apples(props) {
+const Apple = (props) => {
   const {top, left, transition} = props?.style;
   
   return (
@@ -11,3 +10,5 @@ export default function Apples(props) {
     />
   );
 }
+
+export default Apple

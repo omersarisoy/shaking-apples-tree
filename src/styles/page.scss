@@ -8,7 +8,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url("../assets/köy1.jpeg") no-repeat fixed center / cover;
+  background-image: url("../assets/village.jpeg") ;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  background-attachment: fixed;
   margin: 0 auto;
   padding: 0;
   .home-container {
