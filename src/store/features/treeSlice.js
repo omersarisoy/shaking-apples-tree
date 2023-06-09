@@ -34,7 +34,6 @@ const treeSlice = createSlice({
         state.apples[id].transition = action.payload.transition;
       }
     },
-
     setAppleBasket: (state, action) => {
       const id = action.payload.id;
       const isDropped = state.apples[id].isDropped;

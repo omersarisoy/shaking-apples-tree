@@ -1,9 +1,9 @@
 import {
-    setTreeShake,
-    selectAllApples,
-    setAppleDown,
-    setAppleBasket,
-  } from "../store/features/treeSlice";
+  setTreeShake,
+  selectAllApples,
+  setAppleDown,
+  setAppleBasket,
+} from "../store/features/treeSlice";
 import { useDispatch, useSelector } from "react-redux";
   
 const ShakeButton = (props) => {
